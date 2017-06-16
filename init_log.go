@@ -1,7 +1,7 @@
 package common
 
 import (
-    "github.com/guyannanfei25/go-logger"
+    "github.com/guyannanfei25/go-logger/logger"
 )
 
 func InitLogger(logDir, logName string, logLevel int) error {
