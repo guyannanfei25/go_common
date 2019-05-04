@@ -5,5 +5,9 @@ func Close() error {
 		DefaultDB.Close()
 	}
 
+	if DefaultRedis != nil {
+		DefaultRedis.Close()
+	}
+
 	return nil
 }
